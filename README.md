@@ -108,3 +108,40 @@ Graph centrality measures are used to identify the most important or "central" n
 **Use case**: Epidemiology, information spread.
 
 **Function**: Not in standard NetworkX, requires custom implementation.
+
+
+## Graph Density and Diameter
+
+### 1. Graph Density
+
+**Definition**:  
+Graph density measures how close the graph is to being fully connected.
+
+**Explanation**:  
+- In a fully connected graph, every node has an edge to every other node.
+- The density is a number between 0 and 1:
+  - A value of 1 means the graph is completely connected.
+  - A value close to 0 means very few connections.
+
+**For Undirected Graphs**:  
+Density = (2 × number of edges) / (number of nodes × (number of nodes - 1))
+
+**For Directed Graphs**:  
+Density = (number of edges) / (number of nodes × (number of nodes - 1))
+
+
+### 2. Graph Diameter
+
+**Definition**:  
+The diameter is the longest shortest path between any two nodes in the graph.
+
+**Explanation**:  
+- For each pair of nodes, find the shortest path between them.
+- The diameter is the **maximum** of all those shortest path lengths.
+- Only defined for **connected graphs**.
+
+**If the graph is not connected**:  
+Use the diameter of the **largest connected component**.
+
+
+
