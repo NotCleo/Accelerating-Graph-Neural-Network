@@ -23,14 +23,6 @@ Graph centrality measures are used to identify the most important or "central" n
 
 **Definition**: Fraction of shortest paths that pass through a node.
 
-**Formula**:  
-
-![formula](https://latex.codecogs.com/png.image?\dpi{110}&space;C_B(v)=\sum_{s\ne\,v\ne\,t}\frac{\sigma_{st}(v)}{\sigma_{st}})
-
-
-Where:
-- `σ_st` is the total number of shortest paths from node `s` to node `t`.
-- `σ_st(v)` is the number of those paths that pass through node `v`.
 
 **Use case**: Finds bottlenecks or "bridge" nodes between communities.
 
@@ -41,12 +33,6 @@ Where:
 ## 3. Closeness Centrality
 
 **Definition**: Inverse of the average distance from a node to all other nodes.
-
-**Formula**:  
-
-![formula](https://latex.codecogs.com/png.image?\dpi{110}&space;C_C(v)=\frac{1}{\sum_t\,d(v,\,t)})
-
-
 
 
 **Use case**: Finds nodes that can spread information quickly to the whole network.
