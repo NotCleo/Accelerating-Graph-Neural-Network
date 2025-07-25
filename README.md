@@ -25,7 +25,7 @@ Graph centrality measures are used to identify the most important or "central" n
 
 **Formula**:  
 
-![formula](https://latex.codecogs.com/png.image?\dpi{110}&space;C_B(v)=\sum_{s\ne v\ne t}\frac{\sigma_{st}(v)}{\sigma_{st}})
+![formula](https://latex.codecogs.com/png.image?\dpi{110}&space;C_B(v)=\sum_{s\ne\,v\ne\,t}\frac{\sigma_{st}(v)}{\sigma_{st}})
 
 
 Where:
@@ -44,7 +44,7 @@ Where:
 
 **Formula**:  
 
-![formula](https://latex.codecogs.com/png.image?\dpi{110}&space;C_C(v)=\frac{1}{\sum_t d(v, t)})
+![formula](https://latex.codecogs.com/png.image?\dpi{110}&space;C_C(v)=\frac{1}{\sum_t\,d(v,\,t)})
 
 
 
