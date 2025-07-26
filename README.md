@@ -144,4 +144,7 @@ The diameter is the longest shortest path between any two nodes in the graph.
 Use the diameter of the **largest connected component**.
 
 
+All of the work carried here is inspired by https://snap.stanford.edu/class/cs224w-2023/
+
+
 
